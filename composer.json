@@ -31,5 +31,12 @@
     "suggests": {
         "illuminate/console": "^5.0",
         "illuminate/http": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelVerifyEmails\\Auth\\VerifyEmails\\VerifyEmailServiceProvider::class"
+            ]
+        }
     }
 }
